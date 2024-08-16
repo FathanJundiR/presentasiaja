@@ -6,7 +6,7 @@ import HomePage from "../views/HomePage";
 import GamePage from "../views/GamePage";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:3000", {
+const socket = io("https://server.fathanjundirabbani.my.id/", {
   autoConnect: false,
 });
 
